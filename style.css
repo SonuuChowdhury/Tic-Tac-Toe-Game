@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: #bde0fe;
+}
+
+/* This the heading bar */
+.head{
+    height: 100px;
+    width: 100vw;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+    font-size: 2.2rem;
+}
+
+
+/* Game UI */
+
+.bodymain{
+    height: 230px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start ;
+}
+
+.innerbox{
+    border: 2px solid black;
+    height: 60px;
+    width: 60px;
+    margin-left: 4px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-size: contain;
+    background-repeat: no-repeat
+}
+
+.bodyUI{
+    display: flex;
+    height: 200px;
+    width: 220px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+
+/* Control Pannel  */
+.controlSec{
+    height: 100px;
+    width: 100vw;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+}
+
+.controlBtn{
+    height: 50px;
+    width: 100px;
+    font-size: 1.5rem;
+    background-color: #d62828;
+    color: yellow;
+    margin-top: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.controlBtn:hover{
+    height: 55px;
+    width: 105px;
+}
+
+
+.infoSec{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 1.3rem;
+    height: 60px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+
+
+
+  
